@@ -24,6 +24,7 @@ cout<<"value of x:"<<(*p)<<endl;
     }
 */
 //Q3
+/*
 int main(){
 int a = 10;
 int b = 20;
@@ -32,4 +33,22 @@ int *q = &b;
  cout<<"value of a:"<<(*q)<<endl;
  cout<<"Value of the b:"<<(*p)<<endl;
 }
+*/
+int main(){
+int a = 10;
+int b = 20;
+int *p = &a;
+int *q = &b;
 
+int temp = *p;
+    *p = *q;
+    *q = temp;
+
+
+cout << "Value of a: " << a << endl;
+    cout << "Value of b: " << b << endl;
+
+    return 0;
+
+
+}
