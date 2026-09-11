@@ -15,12 +15,21 @@ int main(){
 }
     */
 
-    //Q2
-    int main(){
+    /*Q2    int main(){
 int x = 10;
 int *p = &x;
 *p=50;
 cout<<"value of x:"<<(*p)<<endl;
 
     }
+*/
+//Q3
+int main(){
+int a = 10;
+int b = 20;
+int *p = &a;
+int *q = &b;
+ cout<<"value of a:"<<(*q)<<endl;
+ cout<<"Value of the b:"<<(*p)<<endl;
+}
 
