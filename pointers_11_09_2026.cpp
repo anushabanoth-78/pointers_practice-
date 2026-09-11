@@ -2,6 +2,7 @@
 using namespace std;
 #include <bits/stdc++.h>
 using namespace std;
+/*
 int main(){
     int x=25;
     int* p=&x;
@@ -12,3 +13,14 @@ int main(){
 
     
 }
+    */
+
+    //Q2
+    int main(){
+int x = 10;
+int *p = &x;
+*p=50;
+cout<<"value of x:"<<(*p)<<endl;
+
+    }
+
